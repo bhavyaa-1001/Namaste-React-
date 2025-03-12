@@ -1,0 +1,12 @@
+ul{
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    /* justify-content: space-between; */
+    padding-right: 10px;
+    background-color: #eaf283;
+}
+
+.active-link{
+    color: red;
+}
