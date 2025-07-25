@@ -16,7 +16,7 @@ export const counterSlice = createSlice({
             state.value += Number(action.payload)
         }
     }
-
+ 
 })
 
 export const {increment,decrement,incrementByAmount} = counterSlice.actions
